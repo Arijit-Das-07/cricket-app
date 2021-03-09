@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
 import { MatchlistComponent } from './matchlist/matchlist.component';
+import { RegisterComponent } from './register/register.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MatchlistComponent } from './matchlist/matchlist.component';
     NavbarComponent,
     LoginComponent,
     ErrorComponent,
-    MatchlistComponent
+    MatchlistComponent,
+    RegisterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
